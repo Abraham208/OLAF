@@ -18,13 +18,9 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <TableRow
-            android:id="@+id/gh1"
             android:layout_width="330dp"
             android:layout_height="428dp"
             android:layout_weight="1"
-            android:background="@layout/tableborder"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:clickable="true"
             android:backgroundTint="#FFFFFF"
             android:backgroundTintMode="multiply">
 
@@ -32,14 +28,8 @@
             <LinearLayout
                 android:layout_width="0dip"
                 android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:orientation="horizontal" >
-                <ImageView
-                    android:id="@+id/gh_ic1"
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    app:srcCompat="@drawable/sphone" />
-            </LinearLayout>
+                android:layout_weight="0"
+                android:orientation="horizontal" />
             <LinearLayout
                 android:layout_width="0dip"
                 android:layout_height="fill_parent"
@@ -47,17 +37,54 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/gh_t1"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:gravity="center"
-                    android:text="@string/sphone1"
-                    android:textSize="18sp" />
+                    android:text="@string/ps1"
+                    android:textSize="25sp" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="0dip"
                 android:layout_height="fill_parent"
                 android:layout_weight="0"
+                android:orientation="horizontal" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/gh1"
+            android:layout_width="330dp"
+            android:layout_height="428dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:backgroundTintMode="multiply">
+
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="20"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Item Name:"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
                 android:orientation="horizontal" />
 
 
@@ -67,132 +94,133 @@
             android:layout_width="330dp"
             android:layout_height="428dp"
             android:layout_weight="1"
-            android:background="@layout/tableborder"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:clickable="true"
             android:backgroundTint="#FFFFFF"
             android:backgroundTintMode="multiply">
-
-            <LinearLayout
-                android:layout_width="0dip"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:orientation="horizontal" >
-                <ImageView
-                    android:id="@+id/gh_ic2"
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    app:srcCompat="@drawable/bcase" />
-            </LinearLayout>
             <LinearLayout
                 android:layout_width="0dip"
                 android:layout_height="fill_parent"
                 android:layout_weight="2"
-                android:orientation="horizontal">
+                android:orientation="horizontal" />
 
-                <TextView
-                    android:id="@+id/gh_t2"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:gravity="center"
-                    android:text="@string/bcase"
-                    android:textSize="18sp" />
-            </LinearLayout>
             <LinearLayout
                 android:layout_width="0dip"
                 android:layout_height="fill_parent"
-                android:layout_weight="0"
+                android:layout_weight="13"
+                android:focusable="true"
+
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/uname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textEmailAddress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
                 android:orientation="horizontal" />
         </TableRow>
         <TableRow
-            android:id="@+id/gh3"
             android:layout_width="330dp"
             android:layout_height="428dp"
             android:layout_weight="1"
-            android:background="@layout/tableborder"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:clickable="true"
             android:backgroundTint="#FFFFFF"
             android:backgroundTintMode="multiply">
 
-            <LinearLayout
-                android:layout_width="0dip"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:orientation="horizontal" >
-                <ImageView
-                    android:id="@+id/gh_ic3"
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    app:srcCompat="@drawable/pets" />
-            </LinearLayout>
+
             <LinearLayout
                 android:layout_width="0dip"
                 android:layout_height="fill_parent"
                 android:layout_weight="2"
-                android:orientation="horizontal">
+                android:orientation="horizontal" />
 
-                <TextView
-                    android:id="@+id/gh_t3"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:gravity="center"
-                    android:text="@string/pets"
-                    android:textSize="18sp" />
-            </LinearLayout>
             <LinearLayout
                 android:layout_width="0dip"
                 android:layout_height="fill_parent"
-                android:layout_weight="0"
+                android:layout_weight="20"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Item Description:"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal" />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="330dp"
+            android:layout_height="428dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:backgroundTintMode="multiply">
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="13"
+                android:focusable="true"
+
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textEmailAddress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
                 android:orientation="horizontal" />
         </TableRow>
         <TableRow
             android:id="@+id/gh4"
             android:layout_width="330dp"
             android:layout_height="428dp"
-            android:layout_weight="1"
-            android:background="@layout/tableborder"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:clickable="true"
+            android:layout_weight="0"
+
             android:backgroundTint="#FFFFFF"
             android:backgroundTintMode="multiply">
 
-            <LinearLayout
+            <Button
+                android:id="@+id/btn_login3"
                 android:layout_width="0dip"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:orientation="horizontal" >
-                <ImageView
-                    android:id="@+id/gh_ic4"
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    app:srcCompat="@drawable/sphone" />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="0dip"
-                android:layout_height="fill_parent"
-                android:layout_weight="2"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/gh_t4"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:gravity="center"
-                    android:text="@string/sphone2"
-                    android:textSize="18sp" />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="0dip"
-                android:layout_height="fill_parent"
-                android:layout_weight="0"
-                android:orientation="horizontal" />
+                android:gravity="bottom|center"
+                android:text="Confirm"
+                android:textSize="25sp" />
         </TableRow>
         <TableRow
             android:id="@+id/gh5"
             android:layout_width="match_parent"
             android:layout_height="428dp"
-            android:layout_weight="1"
+            android:layout_weight="0"
 
             android:backgroundTint="#FFFFFF"
             android:backgroundTintMode="multiply">
