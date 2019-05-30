@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">OLAF</string>
+    <string name="sphone1">Huawei P30</string>
+    <string name="sphone2">Pink iPhone X</string>
+    <string name="bcase">Black Briefcase</string>
+    <string name="pets">Grey-colored Poodle</string>
 </resources>
